@@ -1,5 +1,6 @@
 package designpatterns.creational.singleton;
 
+
 public class Runner {
 
 	public static void main(String[] args) {
@@ -16,6 +17,8 @@ public class Runner {
 		otherRichard.setAge(25);
 		System.out.println(otherRichard.getAge());
 		System.out.println(singletonR.getAge());
+		
+		
 	}
 
 }
